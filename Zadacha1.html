@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random background</title>
+</head>
+<body>
+    <script>
+        setInterval(() => {
+            const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+            document.body.style.backgroundColor = randomColor;
+        }, 300);
+    </script>
+</body>
+</html>
